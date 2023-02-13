@@ -1,5 +1,6 @@
 # pihole_docker
 
+Use PIHole in Docker with unbound
 
 Docker must be installed an running!
 
@@ -8,7 +9,7 @@ Docker must be installed an running!
 
 docker exec -it pihole /bin/bash
 
-Set Password
+Set Password:
 
 pihole -a -p
 
